@@ -1,0 +1,54 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases and user data
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/audit-backups/
+*.sqlite
+*.sqlite3
+
+# Tests and temporary files
+.pytest_cache/
+.pytest-audit-*/
+release-smoke-*/
+*.log
+release-smoke-screenshot-audit.png
+
+# Build artifacts
+build/
+dist/
+release/
+
+# IDE
+.idea/
+.vscode/
+
+# Local secrets
+.env
+.env.*
+
+# Local Python diagnostics
+qt_diagnostic.py
+qt_diagnostic_preload.py
+PC-Builder-Diagnostic.spec
+qt-diagnostic-noicu.spec
+_diag_runtime_hook.py
+
+# All database backups
+*.db
+*.db-*
+*.bak
+*.backup
+
+# Release archives and packaged builds
+release/
+release-*/
+*.zip
+
+# Audit artifacts
+*AUDIT*
